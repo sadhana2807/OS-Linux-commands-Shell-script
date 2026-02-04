@@ -412,6 +412,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="1049" height="323" alt="Screenshot from 2026-02-04 14-42-09" src="https://github.com/user-attachments/assets/c689a795-879a-4087-9fb5-812fcef56d01" />
 
 
 mkdir backupdir
@@ -424,16 +425,23 @@ tar -tvf backup.tar
 ## OUTPUT
 
 
+<img width="1049" height="323" alt="Screenshot from 2026-02-04 14-42-20" src="https://github.com/user-attachments/assets/305d622d-ccf7-4460-9d54-2a9d9cb23ee1" />
+
+
 tar -xvf backup.tar
 ## OUTPUT
+
+<img width="1049" height="323" alt="Screenshot from 2026-02-04 14-42-29" src="https://github.com/user-attachments/assets/f756368f-ba28-48a8-9aa7-5c4a9b3893da" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- 
+ <img width="480" height="59" alt="Screenshot from 2026-02-04 14-37-02" src="https://github.com/user-attachments/assets/f6148efa-35dc-4861-bf5e-7326c67122b0" />
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="540" height="144" alt="Screenshot from 2026-02-04 14-37-15" src="https://github.com/user-attachments/assets/b2dc2366-927a-46d3-96e6-16129709d86f" />
 
  
 # Shell Script
