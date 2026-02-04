@@ -261,75 +261,89 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
+<img width="487" height="54" alt="Screenshot from 2026-02-04 14-00-52" src="https://github.com/user-attachments/assets/f5fa13c7-e88e-439e-9bb3-b73dc0023cee" />
 
 
 
 sed -n -e '$p' file23
 ## OUTPUT
+<img width="487" height="54" alt="Screenshot from 2026-02-04 14-00-57" src="https://github.com/user-attachments/assets/d2f55970-fe70-47cf-b249-65b9f2a3d6b0" />
 
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
+<img width="487" height="201" alt="Screenshot from 2026-02-04 14-01-05" src="https://github.com/user-attachments/assets/1f2031de-89dd-4905-bc0c-c7da6e16f6ee" />
 
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
+<img width="487" height="201" alt="Screenshot from 2026-02-04 14-01-13" src="https://github.com/user-attachments/assets/be22fb81-bd16-4492-88a1-a36509a9032e" />
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+<img width="487" height="209" alt="Screenshot from 2026-02-04 14-01-24" src="https://github.com/user-attachments/assets/e3e53e6c-72f7-4188-87ca-f418e48822dd" />
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
+<img width="487" height="138" alt="Screenshot from 2026-02-04 14-01-42" src="https://github.com/user-attachments/assets/4ae0b54a-fb6d-4ce7-9fde-a87ca902614c" />
 
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
+<img width="487" height="106" alt="Screenshot from 2026-02-04 14-01-53" src="https://github.com/user-attachments/assets/78b293ab-0946-48cc-895a-a6f8358b7672" />
 
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
+<img width="505" height="72" alt="Screenshot from 2026-02-04 14-02-06" src="https://github.com/user-attachments/assets/be933976-930b-4bac-8c99-f4e1778f7303" />
 
 
 
 seq 10 
 ## OUTPUT
+<img width="505" height="253" alt="Screenshot from 2026-02-04 14-02-15" src="https://github.com/user-attachments/assets/a84fef86-b160-4962-ba2d-581b9886a95b" />
 
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
+<img width="505" height="95" alt="Screenshot from 2026-02-04 14-09-23" src="https://github.com/user-attachments/assets/b3a17e35-b5ab-452f-9ad2-a045e6d12810" />
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
+<img width="505" height="95" alt="Screenshot from 2026-02-04 14-09-29" src="https://github.com/user-attachments/assets/e568f7a7-4c3f-4d1f-8565-3ff391af26c9" />
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
+<img width="505" height="121" alt="Screenshot from 2026-02-04 14-09-37" src="https://github.com/user-attachments/assets/a9e7f706-e377-4e18-84b9-113aae929992" />
 
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
+<img width="505" height="106" alt="Screenshot from 2026-02-04 14-09-47" src="https://github.com/user-attachments/assets/480e27aa-2520-47cf-bc54-1c470eb4e41b" />
 
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
+<img width="505" height="106" alt="Screenshot from 2026-02-04 14-09-57" src="https://github.com/user-attachments/assets/b8167e48-7401-4020-92d1-8028da5a41f3" />
 
 
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
+<img width="505" height="106" alt="Screenshot from 2026-02-04 14-11-44" src="https://github.com/user-attachments/assets/ecb6e5f3-bf3c-438d-9672-b2c48838d0e5" />
 
 
 
@@ -347,6 +361,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="505" height="134" alt="Screenshot from 2026-02-04 14-19-08" src="https://github.com/user-attachments/assets/d6b603b6-8912-4e08-bfa4-c5b11e5938d3" />
 
 
 cat > file22
@@ -360,6 +375,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="505" height="146" alt="Screenshot from 2026-02-04 14-19-16" src="https://github.com/user-attachments/assets/fe438515-1627-47bd-b22c-160243e0e50e" />
 
 
 
@@ -367,6 +383,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="536" height="203" alt="Screenshot from 2026-02-04 14-19-34" src="https://github.com/user-attachments/assets/491abacc-01fb-4518-a599-a789b1dda199" />
 
 cat < urllist.txt
 ```
@@ -383,11 +400,12 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+<img width="536" height="92" alt="Screenshot from 2026-02-04 14-20-01" src="https://github.com/user-attachments/assets/8b6f3635-b403-435a-b2cd-3f73c7b2c171" />
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="570" height="92" alt="Screenshot from 2026-02-04 14-20-11" src="https://github.com/user-attachments/assets/86cbbf40-772c-4270-8bec-fc8d7de0e623" />
 
 
 
