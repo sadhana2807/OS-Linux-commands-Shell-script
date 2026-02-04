@@ -504,23 +504,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="587" height="451" alt="image" src="https://github.com/user-attachments/assets/979b3978-e46e-48c7-9822-30d51c39d85b" />
 
  
 ls file1
 ## OUTPUT
+<img width="366" height="65" alt="image" src="https://github.com/user-attachments/assets/85f3638a-541c-4f5a-9b53-76c379d1b72e" />
 
 echo $?
 ## OUTPUT 
+<img width="380" height="66" alt="image" src="https://github.com/user-attachments/assets/158d8dd6-46d3-40d7-9d8a-75baaefed1b9" />
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+ <img width="343" height="80" alt="image" src="https://github.com/user-attachments/assets/0669c65f-8941-4c49-b4da-428c50629359" />
+
 abcd
  
 echo $?
  ## OUTPUT
+<img width="662" height="304" alt="image" src="https://github.com/user-attachments/assets/8db931f3-a475-404f-98a0-400df0343f63" />
 
 
  
@@ -553,6 +559,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+<img width="674" height="346" alt="image" src="https://github.com/user-attachments/assets/d856c30a-0f51-45d0-b012-97739a4c92df" />
 
 
 
@@ -561,6 +568,7 @@ chmod 755 strcomp.sh
 ./strcomp.sh 
 ## OUTPUT
 
+<img width="789" height="324" alt="image" src="https://github.com/user-attachments/assets/6d99a629-765a-4c12-bd6c-b1f9d6056935" />
 
 # check file ownership
 cat < psswdperm.sh 
@@ -587,6 +595,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="778" height="238" alt="image" src="https://github.com/user-attachments/assets/ff32ed5a-a40e-4c6a-bbac-36a12b403b14" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -634,6 +643,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="719" height="564" alt="image" src="https://github.com/user-attachments/assets/c06ee760-44ea-4c02-9139-3006c3f836b3" />
 
 
 # using numeric test comparisons
@@ -677,6 +687,7 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="749" height="654" alt="image" src="https://github.com/user-attachments/assets/8d4b0838-7a9e-4b5f-adde-5836670183b2" />
 
 # check if a file
 cat > ifnested.sh 
@@ -726,6 +737,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="771" height="664" alt="image" src="https://github.com/user-attachments/assets/5bfdecf5-a3a3-4465-839a-2ba59da32912" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -754,6 +766,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="764" height="654" alt="image" src="https://github.com/user-attachments/assets/014ca3c9-bd8e-4333-ad18-4c564310f5d2" />
 
 
 # testing compound comparisons
@@ -770,6 +783,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="683" height="347" alt="image" src="https://github.com/user-attachments/assets/6ee929cd-a212-4130-9178-2000c73d95dd" />
 
 # using the case command
 cat >casecheck.sh 
@@ -881,6 +895,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="652" height="220" alt="image" src="https://github.com/user-attachments/assets/ad574257-de12-4db0-af0f-a7498e178e08" />
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -902,6 +918,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="621" height="307" alt="image" src="https://github.com/user-attachments/assets/a4278090-84c7-444d-9e75-8e815fdedbdc" />
 
 
 cat forctype.sh 
@@ -929,6 +946,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="526" height="280" alt="image" src="https://github.com/user-attachments/assets/7d3a2e8a-9fa5-443a-9514-1267c22e149f" />
 
 cat fornested1.sh 
 ```bash
@@ -947,6 +965,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<<img width="779" height="287" alt="image" src="https://github.com/user-attachments/assets/3aecc3e8-c147-4b72-9cbd-e7ad1f7bd976" />
+
 
  
 cat forbreak.sh 
@@ -964,6 +984,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+<img width="785" height="295" alt="image" src="https://github.com/user-attachments/assets/fca08ddd-d6b1-4832-be60-b261d77448e8" />
 
 $ chmod 755 forbreak.sh
  
@@ -989,7 +1010,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ <img width="785" height="309" alt="image" src="https://github.com/user-attachments/assets/502cd8b0-e5f9-4e66-9cf2-b0040ff72914" />
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1004,6 +1026,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+<img width="622" height="191" alt="image" src="https://github.com/user-attachments/assets/56415441-2a39-4a6d-a276-377d44be5d4b" />
 
  cat exread1.sh
 ```bash
@@ -1016,6 +1039,7 @@ $ chmod 755 exread1.sh
 
 ## OUTPUT
 
+<img width="684" height="146" alt="image" src="https://github.com/user-attachments/assets/b606867f-c5f0-45e2-93bf-63cca35cf3b7" />
 
 
 $ ./exread1.sh 
@@ -1038,8 +1062,10 @@ fi
 ## OUTPUT
  ./funcex.sh 
 
- 
+ <img width="670" height="19" alt="image" src="https://github.com/user-attachments/assets/790e8e97-a7ac-4611-bc83-4c246ecc4d1a" />
+
  ./funcex.sh 1 2
+<img width="648" height="25" alt="image" src="https://github.com/user-attachments/assets/7d562db0-8d36-4be5-b02a-b9812c999c97" />
 
  
 cat argshift.sh
@@ -1053,6 +1079,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+<img width="646" height="54" alt="image" src="https://github.com/user-attachments/assets/89cd0df9-3968-4980-a9da-939b8b9200e0" />
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1070,6 +1098,8 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+<img width="778" height="68" alt="image" src="https://github.com/user-attachments/assets/2f2cacf9-9e70-4162-89c4-aa261c303c03" />
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1084,7 +1114,8 @@ set +x
 ```
 ## OUTPUT
  ./argshift.sh 1 2 3
- 
+ <img width="716" height="382" alt="image" src="https://github.com/user-attachments/assets/888c38fa-b68d-4e9c-a566-d5f1dce3583c" />
+
  
 cat > nc.awk
 ```bash
@@ -1115,7 +1146,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="484" height="252" alt="image" src="https://github.com/user-attachments/assets/6ca56c7a-72d0-4745-aee0-8d0c6bdad1fb" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1142,6 +1174,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="609" height="75" alt="image" src="https://github.com/user-attachments/assets/9c991cc1-1aea-4ef5-805a-b2eed172a9f4" />
 
 
 # RESULT:
