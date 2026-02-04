@@ -89,18 +89,21 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+<img width="424" height="75" alt="Screenshot from 2026-02-04 13-25-19" src="https://github.com/user-attachments/assets/fa7551bc-6e14-4f06-b3c5-8637e9b552d0" />
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+<img width="424" height="94" alt="Screenshot from 2026-02-04 13-25-31" src="https://github.com/user-attachments/assets/ce712f6e-7069-4bbc-9a02-d08dca05b30d" />
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
 
+<img width="424" height="94" alt="Screenshot from 2026-02-04 13-25-40" src="https://github.com/user-attachments/assets/7438da1a-9325-4b25-b934-72b02c7001f9" />
 
 cat < newfile 
 ```
@@ -114,28 +117,32 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+<img width="424" height="53" alt="Screenshot from 2026-02-04 13-26-08" src="https://github.com/user-attachments/assets/7b9227f9-957f-4c4c-9fb7-df62c93f48ed" />
 
 
 
 grep hello newfile 
 ## OUTPUT
+<img width="424" height="53" alt="Screenshot from 2026-02-04 13-26-15" src="https://github.com/user-attachments/assets/5cca6a68-f16a-4a0f-89a5-a2796dc61693" />
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+<img width="424" height="53" alt="Screenshot from 2026-02-04 13-26-22" src="https://github.com/user-attachments/assets/9c38b2ea-65f3-4b33-8cd9-94bca479889e" />
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+<img width="424" height="73" alt="Screenshot from 2026-02-04 13-26-31" src="https://github.com/user-attachments/assets/33fc2e37-d5ed-43ff-a69b-23e8b0ddd3d4" />
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
+<img width="464" height="59" alt="Screenshot from 2026-02-04 13-26-51" src="https://github.com/user-attachments/assets/74ea8755-f53e-460d-acc1-43ae9d9eb742" />
 
 
 
@@ -147,6 +154,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
+<img width="464" height="70" alt="Screenshot from 2026-02-04 13-27-04" src="https://github.com/user-attachments/assets/053afc6f-44bf-4911-a48e-ae253729aef7" />
 
 
 cat < newfile 
@@ -170,59 +178,71 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
+<img width="487" height="83" alt="Screenshot from 2026-02-04 13-49-55" src="https://github.com/user-attachments/assets/4fe46b59-b725-400a-835c-defc5cc35f7b" />
 
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="487" height="83" alt="Screenshot from 2026-02-04 13-50-01" src="https://github.com/user-attachments/assets/c36d5dfa-2774-4264-8dfa-5a9a99c14a03" />
 
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+<img width="487" height="83" alt="Screenshot from 2026-02-04 13-50-15" src="https://github.com/user-attachments/assets/ed7459b4-9fd7-45f2-9aba-772f8bb8f853" />
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
+<img width="487" height="60" alt="Screenshot from 2026-02-04 13-50-26" src="https://github.com/user-attachments/assets/2f581656-f646-4ef2-ae87-8ce075022dd5" />
 
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
+<img width="487" height="69" alt="Screenshot from 2026-02-04 13-50-36" src="https://github.com/user-attachments/assets/d5899666-8f2a-4500-a6db-7d572fa3fc9a" />
 
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
+<img width="487" height="55" alt="Screenshot from 2026-02-04 13-50-44" src="https://github.com/user-attachments/assets/1ec4235b-f9fb-41cc-9f55-26022e8cc6c3" />
 
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
+<img width="487" height="73" alt="Screenshot from 2026-02-04 13-50-52" src="https://github.com/user-attachments/assets/fd0877c6-8f53-477d-be36-76a1ec19871b" />
 
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+<img width="487" height="52" alt="Screenshot from 2026-02-04 13-51-13" src="https://github.com/user-attachments/assets/d5c6d9f4-f61d-4d43-b84c-8a72992cb59a" />
 
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+<img width="487" height="52" alt="Screenshot from 2026-02-04 13-51-19" src="https://github.com/user-attachments/assets/ba3626fe-5467-4d49-8e76-9434a76f5481" />
 
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
+<img width="487" height="52" alt="Screenshot from 2026-02-04 13-51-25" src="https://github.com/user-attachments/assets/7340b625-de8b-4ed7-853d-45c832779e8b" />
 
 
 egrep l{2} newfile
 ## OUTPUT
+<img width="487" height="72" alt="Screenshot from 2026-02-04 13-51-37" src="https://github.com/user-attachments/assets/4925ed49-d308-4628-9e9e-fdf3db31b330" />
 
 
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
+<img width="487" height="91" alt="Screenshot from 2026-02-04 13-51-47" src="https://github.com/user-attachments/assets/31d1af28-eeae-4bf5-ba8f-0f0b4899093e" />
 
 
 cat > file23
